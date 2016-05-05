@@ -68,7 +68,7 @@ clean_dataset <- cbind(selected_features, activity_labels, subject)
 
 ####From the data set in step 4, creates a second, independent
 ####tidy data set with the average of each variable for each activity and each subject.####
-
+library(dplyr)
 summarize_dataset <- clean_dataset %>% group_by(subject, activity_labels) %>% summarize_each(funs(mean))
 
 write.table(summarize_dataset, "./final_result.txt", row.names = FALSE)
