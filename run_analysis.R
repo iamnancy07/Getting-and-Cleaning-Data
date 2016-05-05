@@ -30,7 +30,7 @@ subject <- rbind(train_subject, test_subject)
 #combine feature and label datasets
 
 dataset = cbind(X, Y, subject)
-write.table(dataset,"./project_result1.txt")
+
 ###Extracts only the measurements on the mean and standard deviation for each measurement.###
 
 #read feature names and label names from txt
@@ -71,6 +71,6 @@ clean_dataset <- cbind(selected_features, activity_labels, subject)
 
 summarize_dataset <- clean_dataset %>% group_by(subject, activity_labels) %>% summarize_each(funs(mean))
 
-write.table(summarize_dataset, "./project_result2.txt")
+write.table(summarize_dataset, "./final_result.txt", row.names = FALSE)
 
 
