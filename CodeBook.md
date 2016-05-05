@@ -1,5 +1,5 @@
 
-1. Variables in the final_result.txt file
+a.Variables in the final_result.txt file
  
 [1] "subject"                   "activity_labels"           "tbodyacc_mean_x"           "tbodyacc_mean_y"          
  [5] "tbodyacc_mean_z"           "tbodyacc_std_x"            "tbodyacc_std_y"            "tbodyacc_std_z"           
@@ -19,7 +19,7 @@
 [61] "fbodyaccmag_mean"          "fbodyaccmag_std"           "fbodybodyaccjerkmag_mean"  "fbodybodyaccjerkmag_std"  
 [65] "fbodybodygyromag_mean"     "fbodybodygyromag_std"      "fbodybodygyrojerkmag_mean" "fbodybodygyrojerkmag_std" 
 
-2. How to create the final_result.txt file
+b.How to create the final_result.txt file
    - download [zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to working directory.
    - unzip relevent files (train, test datasets for X, Y and subject)
    - read txt files
