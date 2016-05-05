@@ -3,10 +3,9 @@
 
 This submission include:
 
-1. run_analysis.R 
-2. CodeBook.md
-3. two dataset in txt file format
-  - project_result1.txt is the original result of combined train and test datasets of X, Y, and subject
-  - project_result2.txt is the summarized result for average of each variable for each activity and each subject
+1. run_analysis.R that reads and cleans datasets and create the final_result.txt
+2. CodeBook.md that explains what variables are in final_result.txt and major steps to create that
+3. README.md that list all things in this repo
+4. final_result.txt that is the final tidy dataset created for this project
 
 
